@@ -3,3 +3,24 @@
     position: relative;
     cursor: pointer;
 }
+
+.tooltip::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    max-width: 200px;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    pointer-events: none;
+    opacity: 1;
+    transition: transform 0.2s ease-out;
+    opacity: 0.2s ease-out;
+}
+
+.tooltip-animated::after {
+    transform: translateY(100%);
+    opacity: 1;
+}
