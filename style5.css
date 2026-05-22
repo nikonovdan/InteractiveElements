@@ -1,0 +1,14 @@
+.tablinks {
+    border: lightgrey 1px solid;
+    outline: none;
+    cursor: pointer;
+    width: 25%;
+    height: 80px;
+    background-color: #efefef;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}

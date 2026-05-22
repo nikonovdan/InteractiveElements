@@ -24,3 +24,7 @@ span {
     opacity: 1;
 }
 
+.tooltip-animated-close::after {
+    transform: translateY(100%);
+    opacity: 0;
+}
