@@ -1,6 +1,9 @@
 span {
     position: relative;
     cursor: pointer;
+    color: blue;
+    text-decoration: none;
+    border-bottom: 1px dashed blue;
 }
 
 .tooltip::after {
