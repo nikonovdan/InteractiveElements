@@ -1,5 +1,6 @@
 'use strict'
 const accordeonQuestions = document.querySelectorAll('.acordeon-question');
+const firstquestion = document.querySelector('.firstquestion')
 
 for(let accordeonQuestion of accordeonQuestions) {
     accordeonQuestion.addEventListener("click", function () {
